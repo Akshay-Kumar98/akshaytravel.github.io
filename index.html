@@ -1,0 +1,1427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akshay Travel & Tourism</title>
+  <link rel="icon" href="images/icon.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css"
+    integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css.map">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="https://kit.fontawesome.com/86f74b1471.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <div class="page">
+
+    <div class="header">
+
+      <div class="head_logo">
+        <a href="index.html"><img src="images/Travel logo-01.svg"></a>
+      </div>
+
+
+      <div class="menuline">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+
+      </div>
+
+    </div>
+
+
+    <div class="sidebar" id="head_nav">
+      <ul>
+        <li><a class="go" href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="service.html">Services</a></li>
+        <li><a href="destination.html">Destinations</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="pay.html">Pay Now</a></li>
+      </ul>
+    </div>
+
+    <nav class=".nav">
+      <div class="logo">
+        <a href="index.html"><img src="images/Travel logo-01.svg"></a>
+      </div>
+      <div class="menu">
+        <ul id="change">
+          <li><a class="go" href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="service.html">Services</a></li>
+          <li><a href="destination.html">Destinations</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="pay.html">Pay Now</a></li>
+        </ul>
+      </div>
+
+
+    </nav>
+
+    <div class="section-index">
+
+      <div id="carouselExampleControls" class="carousel slide slider" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/1st.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/2nd.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/3rd.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/4th.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev role customicon" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next role customicon" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon " aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="container-fluid padd">
+        <div class="row ">
+          <div class="col-md-12">
+            <div class="button box">
+              <button type="button" class="button1" id="bttn1" onclick="custombelow(); "><i
+                  class="fas fa-paper-plane"></i>
+                Tour</button>
+              <button type="button" class="button2" id="bttn2" onclick="customshow();"><i class="fas fa-home"></i>
+                Hotel</button>
+            </div>
+
+            <div class="col-md-12 text-bg-warning box2 pb-3" id="showbelow">
+              <div class="contentbox">
+                <form class="row g-3 formbox">
+                  <div class="col-md-3">
+                    <label for="Name" class="form-label">NAME (*)</label>
+                    <br>
+                    <input type="text" class="custom" id="text" placeholder="Name" required>
+                  </div>
+                  <div class="col-md-3">
+                    <label for="email" class="form-label">EMAIL (*)</label>
+                    <br>
+                    <input type="email" class="custom" id="text" placeholder="Email" required>
+                  </div>
+                  <div class="col-md-3">
+                    <label for="number" class="form-label">CONTACT NUMBER (*)</label>
+                    <br>
+                    <input type="tel" class="custom" id="phone" placeholder="Phone" required>
+                  </div>
+                  <div class="col-md-3">
+                    <label for="destination" class="form-label">DESTINATION (*)</label>
+                    <br>
+                    <input type="text" class="custom" id="text" placeholder="Destination" required>
+                  </div>
+                  <div class="col-md-2">
+                    <label for="city" class="form-label">ORIGIN CITY </label>
+                    <br>
+                    <input type="text" class="custom" id="text" placeholder="Your City" required>
+                  </div>
+                  <div class="col-md-2">
+                    <label for="stngfrm" class="form-label">STARTING FROM </label>
+                    <br>
+                    <input type="date" class="custom" id="date" placeholder="Date" required>
+                  </div>
+
+                  <div class="col-md-2">
+                    <label for="room" class="form-label">ROOMS REQUIRED</label>
+                    <select id="room" class="selection" required>
+                      <option selected>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                      <option>6</option>
+                      <option>7</option>
+                      <option>8</option>
+                      <option>9</option>
+
+                    </select>
+                  </div>
+
+                  <div class="col-md-2">
+                    <label for="adult" class="form-label">NO. OF ADULTS </label>
+                    <select id="adult" class="selection" required>
+                      <option selected>0</option>
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                      <option>6</option>
+                      <option>7</option>
+                      <option>8</option>
+                      <option>9</option>
+
+                    </select>
+                  </div>
+
+                  <div class="col-md-2">
+                    <label for="children" class="form-label">NO. OF CHILDREN </label>
+                    <select id="children" class="selection" required>
+                      <option selected>0</option>
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                      <option>6</option>
+                      <option>7</option>
+                      <option>8</option>
+                      <option>9</option>
+
+                    </select>
+                  </div>
+
+                  <div class="col-md-2">
+                    <label for="days" class="form-label">STAYS DURATION </label>
+                    <select id="days" class="selection" required>
+                      <option selected>1 days</option>
+                      <option>2 days</option>
+                      <option>3 days</option>
+                      <option>4 days</option>
+                      <option>5 days</option>
+                      <option>6 days</option>
+                      <option>7 days</option>
+                      <option>8 days</option>
+                      <option>9 days</option>
+
+                    </select>
+                  </div>
+
+                  <div class="col-md-2 custombox">
+                    <input type="text" class="flatbox" id="text" value="FeCkoJ" readonly> <img src="images/reload.png">
+
+                  </div>
+
+                  <div class="col-md-2 ">
+                    <input type="text" class="custom" id="text" placeholder="Enter Captcha" required>
+                  </div>
+
+
+
+
+
+                  <button type="submit" class=" custombutton">Send Query </button>
+
+                </form>
+
+              </div>
+              <!--  -->
+              <div class="col-md-12 text-bg-warning boxmine pb-3" id="showcase">
+                <div class="contentbox">
+                  <form class="row g-3 formbox">
+                    <div class="col-md-3">
+                      <label for="Name" class="form-label">NAME (*)</label>
+                      <br>
+                      <input type="text" class="custom" id="text" placeholder="Name" required>
+                    </div>
+                    <div class="col-md-3">
+                      <label for="email" class="form-label">EMAIL (*)</label>
+                      <br>
+                      <input type="email" class="custom" id="text" placeholder="Email" required>
+                    </div>
+                    <div class="col-md-3">
+                      <label for="number" class="form-label">CONTACT NUMBER (*)</label>
+                      <br>
+                      <input type="tel" class="custom" id="phone" placeholder="Phone" required>
+                    </div>
+                    <div class="col-md-3">
+                      <label for="destination" class="form-label">DESTINATION (*)</label>
+                      <br>
+                      <input type="text" class="custom" id="text" placeholder="Destination" required>
+                    </div>
+                    <div class="col-md-2">
+                      <label for="city" class="form-label">CHECK IN </label>
+                      <br>
+                      <input type="date" class="custom" id="date" placeholder="Date" required>
+                    </div>
+                    <div class="col-md-2">
+                      <label for="stngfrm" class="form-label">CHECK OUT </label>
+                      <br>
+                      <input type="date" class="custom" id="date" placeholder="Date" required>
+                    </div>
+
+                    <div class="col-md-2">
+                      <label for="room" class="form-label">ROOMS REQUIRED</label>
+                      <select id="room" class="selection" required>
+                        <option selected>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+
+                      </select>
+                    </div>
+
+                    <div class="col-md-2">
+                      <label for="adult" class="form-label">NO. OF ADULTS </label>
+                      <select id="adult" class="selection" required>
+                        <option selected>0</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+
+                      </select>
+                    </div>
+
+                    <div class="col-md-2">
+                      <label for="children" class="form-label">NO. OF CHILDREN </label>
+                      <select id="children" class="selection" required>
+                        <option selected>0</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+
+                      </select>
+                    </div>
+
+                    <div class="col-md-2">
+                      <label for="days" class="form-label">STAYS DURATION </label>
+                      <select id="days" class="selection" required>
+                        <option selected>1 days</option>
+                        <option>2 days</option>
+                        <option>3 days</option>
+                        <option>4 days</option>
+                        <option>5 days</option>
+                        <option>6 days</option>
+                        <option>7 days</option>
+                        <option>8 days</option>
+                        <option>9 days</option>
+
+                      </select>
+                    </div>
+
+                    <div class="col-md-2 custombox">
+                      <input type="text" class="flatbox" id="text" value="FeCkoJ" readonly> <img
+                        src="images/reload.png">
+
+                    </div>
+
+                    <div class="col-md-2 ">
+                      <input type="text" class="custom" id="text" placeholder="Enter Captcha" required>
+                    </div>
+
+
+
+
+
+                    <button type="submit" class="custombutton">Send Query </button>
+
+                  </form>
+
+                </div>
+              </div>
+
+            </div>
+
+            <!--  -->
+
+
+
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+      <section class="about  text-center">
+        <h2 class="">Trending Tours</h2>
+        <p class="detail">These are Amazing Trending Travel Destinations !</p>
+
+        <div class="container">
+          <div class="row my-4">
+            <div class="brand-logo slider">
+              <div class="slides">
+                <img src="images/maldives.jpg">
+                <div class="slide_cont">
+                  <div class="popular ">
+                    <P>Popular</P>
+                  </div>
+                  <p class="infotext text-white">Maldives</p>
+
+                  <div class="info_cont">
+                    <p>4 nights 5 days</p>
+
+                    <div class="rateicons">
+                      <span>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </span>
+                    </div>
+
+                  </div>
+
+                  <!--  -->
+                </div>
+              </div>
+              <!-- slides -->
+
+              <div class="slides">
+                <img src="images/bali.jpg">
+                <div class="slide_cont">
+                  <div class="popular ">
+                    <P>Popular</P>
+                  </div>
+                  <p class="infotext text-white">Bali</p>
+
+                  <div class="info_cont">
+                    <p>4 nights 5 days</p>
+
+                    <div class="rateicons">
+                      <span>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </span>
+                    </div>
+
+                  </div>
+
+                  <!--  -->
+                </div>
+              </div>
+              <!-- slides -->
+
+              <div class="slides">
+                <img src="images/singapore.jpg">
+                <div class="slide_cont">
+                  <div class="popular ">
+                    <P>Popular</P>
+                  </div>
+                  <p class="infotext text-white">Singapore</p>
+
+                  <div class="info_cont">
+                    <p>4 nights 5 days</p>
+
+                    <div class="rateicons">
+                      <span>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </span>
+                    </div>
+
+                  </div>
+
+                  <!--  -->
+                </div>
+              </div>
+              <!-- slides -->
+
+              <div class="slides">
+                <img src="images/phuket&krabi.jpg">
+                <div class="slide_cont">
+                  <div class="popular ">
+                    <P>Popular</P>
+                  </div>
+                  <p class="infotext text-white">Phuket & Krabi</p>
+
+                  <div class="info_cont">
+                    <p>4 nights 5 days</p>
+
+                    <div class="rateicons">
+                      <span>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </span>
+                    </div>
+
+                  </div>
+
+                  <!--  -->
+                </div>
+              </div>
+              <!-- slides -->
+
+              <div class="slides">
+                <img src="images/malaysia.jpg">
+                <div class="slide_cont">
+                  <div class="popular ">
+                    <P>Popular</P>
+                  </div>
+                  <p class="infotext text-white">Malaysia</p>
+
+                  <div class="info_cont">
+                    <p>4 nights 5 days</p>
+
+                    <div class="rateicons">
+                      <span>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </span>
+                    </div>
+
+                  </div>
+
+                  <!--  -->
+                </div>
+              </div>
+              <!-- slides -->
+
+              <div class="slides">
+                <img src="images/thailand.jpg">
+                <div class="slide_cont">
+                  <div class="popular ">
+                    <P>Popular</P>
+                  </div>
+                  <p class="infotext text-white">Thailand</p>
+
+                  <div class="info_cont">
+                    <p>4 nights 5 days</p>
+
+                    <div class="rateicons">
+                      <span>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </span>
+                    </div>
+
+                  </div>
+
+                  <!--  -->
+                </div>
+              </div>
+              <!-- slides -->
+
+              <div class="slides">
+                <img src="images/europe.jpg">
+                <div class="slide_cont">
+                  <div class="popular ">
+                    <P>Popular</P>
+                  </div>
+                  <div class="infotext text-white">Europe</div>
+
+                  <div class="info_cont">
+                    <p>4 nights 5 days</p>
+
+                    <div class="rateicons">
+                      <span>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </span>
+                    </div>
+
+                  </div>
+
+                  <!--  -->
+                </div>
+              </div>
+              <!-- slides end -->
+
+
+
+
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+
+      <section class="services my-5 text-center">
+        <h2 class="pt-3">Our Services</h2>
+        <p class="detail">One Stop Solution for all your Travel Desires</p>
+
+        <div class="container-fluid">
+          <div class="row mt-2 ">
+
+            <div class="col-md-3 text-center flight inner-box">
+              <i class="fas fa-plane"></i>
+              <p class="text-dark head">Flight Booking</p>
+              <p class=" head_cont">Save your precious time & hard earn money while booking your tickets <br>with LiD
+                Travel
+              </p>
+            </div>
+
+
+            <div class="col-md-3 text-center inner-box">
+              <i class="fa fa-hospital"></i>
+              <p class="text-dark head">Hotel Booking</p>
+              <p class=" head_cont">Our rich repertoire of hotels will help you to choose hotel of your need & your
+                budget
+              </p>
+            </div>
+
+            <div class="col-md-3 text-center inner-box">
+              <i class="fas fa-suitcase"></i>
+              <p class="text-dark head">Tour Packages</p>
+              <p class=" head_cont">Customized packages as per your need is our USP, alongside we also offer group
+                departures & theme tours</p>
+            </div>
+
+            <div class="col-md-3 text-center inner-box">
+              <i class="fas fa-car-alt"></i>
+              <p class="text-dark head">Car & Coach Rental</p>
+              <p class=" head_cont">At LiD we make sure that each vehicle we book will guarantee complete security &
+                safety
+                of our esteemed guests</p>
+            </div>
+
+
+
+          </div>
+          <a href="#">
+            <button class="more-button text-center ">View More</button>
+          </a>
+        </div>
+
+
+      </section>
+
+
+
+      <section class="appreciation text-center">
+        <h2 class="pt-3 text-white">Words of appreciation</h2>
+        <p class="apprtext">We have worked with hundreds of clients. Check what our awesome happy clients <br>saying
+          about
+          us.</p>
+
+
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+                <!-- Carousel Slides / Quotes -->
+                <div class="carousel-inner text-center">
+                  <!-- Quote 1 -->
+                  <div class="item ">
+                    <blockquote>
+                      <div class="row">
+                        <div class="col-sm-10 ">
+                          <p class="quote">It had been a great experience with Akshay Travel. I am in Maldives and the
+                            experience is amazing.
+                            Mr. Vikas had been a good support all through out the stay and before as well. Itenaries
+                            were
+                            well planned in a structured way. Good job done.. Cheers 😊</p>
+                          <p class="small">Mukul Sharma</p>
+                        </div>
+                      </div>
+                    </blockquote>
+                  </div>
+                  <!-- Quote 2 -->
+                  <div class="item active">
+                    <blockquote>
+                      <div class="row">
+                        <div class="col-sm-10 ">
+                          <p class="quote">We were 4 people (2 couple) went to Dubai. it was amazing trip. Bhavna Tiwari
+                            was
+                            very helping
+                            and
+                            available for us 24*7. whenever we got any issues she helped and resolved.Thanks Bhavna </p>
+                          <p class="small">Pragya Awasthi</p>
+                        </div>
+                      </div>
+                    </blockquote>
+                  </div>
+                  <!-- Quote 3 -->
+                  <div class="item">
+                    <blockquote>
+                      <div class="row">
+                        <div class="col-sm-10 ">
+                          <p class="quote">It was a great experience with LID, we were on honeymoon in bali and it was
+                            my
+                            1st
+                            international trip.
+                            i was very confused even I don’t know how i will manage everything but here Mr. Harsh from
+                            LID
+                            he helped and manage everything throughout the trip even in bali through whatsapp. Superb
+                            hotel
+                            with private cab pickup and drop facilities everything was unexpected. Thank you Mr. Harsh
+                            and
+                            Team LID.🤩🤘</p>
+                          <p class="small">Vinay Daksh</p>
+                        </div>
+                      </div>
+                    </blockquote>
+                  </div>
+
+                  <!-- Quote 4 -->
+                  <div class="item">
+                    <blockquote>
+                      <div class="row">
+                        <div class="col-sm-10 ">
+                          <p class="quote">It was an amazing experience in bali mahek booked our package of 6n7d. we
+                            have
+                            all the fun. our
+                            travel agent mahek was very helpful and even in touch with us everytime.it was a great
+                            honeymoon
+                            trip of adventure and romance.we came back with lot of memories. book your package with lid
+                            travel and it's worth it 😊😊😊😊</p>
+                          <p class="small">Bhagya Singh</p>
+                        </div>
+                      </div>
+                    </blockquote>
+                  </div>
+
+                  <!-- Quote 5 -->
+                  <div class="item">
+                    <blockquote>
+                      <div class="row">
+                        <div class="col-sm-10 ">
+                          <p class="quote">Thanks Akshay Travel and Mr. Vikas who has managed all the trip on behalf of
+                            lid
+                            travels. We have
+                            went for phuket and krabi for 6 nights on occasion of our 1st marriage anniversary. All the
+                            things are well managed and great services provided during the complete trip except transfer
+                            from krabi to phuket which was also sorted by Mr. Vikas on time. We will recommend lid
+                            travels
+                            and will use services on next travels also.</p>
+                          <p class="small">CA Sahil Saini</p>
+                        </div>
+                      </div>
+                    </blockquote>
+                  </div>
+
+                </div>
+                <!-- Bottom Carousel Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#quote-carousel" data-slide-to="0" class="active"><img class="img-responsive "
+                      src="images/client1.png" alt="">
+                  </li>
+
+                  <li data-target="#quote-carousel" data-slide-to="1" class="active"><img class="img-responsive "
+                      src="images/client2.png" alt="">
+                  </li>
+
+                  <li data-target="#quote-carousel" data-slide-to="2"><img class="img-responsive "
+                      src="images/client3.png" alt="">
+                  </li>
+
+                  <li data-target="#quote-carousel" data-slide-to="3"><img class="img-responsive"
+                      src="images/client4.png" alt="">
+                  </li>
+                  <li data-target="#quote-carousel" data-slide-to="4"><img class="img-responsive"
+                      src="images/client5.png" alt="">
+                  </li>
+                </ol>
+
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <a href="#">
+          <button class="more-button text-center ">View More</button>
+        </a>
+
+      </section>
+
+      <section class="destination">
+        <div class="title text-center">
+          <h2 class="">Popular Destination</h2>
+          <p class="detail">These are Amazing Travel Destinations !</p>
+        </div>
+        <div class="portfolio-panel">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 custom_destination">
+                <div class="col-md-3">
+                  <div class="destination_box">
+                    <a href="#"> <img class="img-responsive zoom" src="images/maldives.jpg"></a>
+                    <div class="mask_box"></div>
+                    <div class="mask_content">
+                      <h5>World's Most Beautiful Place</h5>
+                      <h3>Maldives</h3>
+                    </div>
+
+                    <div class="destination_content">
+                      <h4>Maldives</h4>
+                      <p>A land of Worlds's Most Beautiful Place for HONEYMOON</p>
+                    </div>
+
+                    <div class="mask_icons">
+                      <img src="icons/earth-wt.svg">
+                      <img src="icons/ship-wt.svg">
+                      <img src="icons/Aeroplane-wt.svg">
+                      <img src="icons/hotel-wt.svg">
+                    </div>
+
+                    <div class="mask_icons2">
+                      <img src="icons/earth-bl.svg">
+                      <img src="icons/ship-bl.svg">
+                      <img src="icons/Aeroplane-bl.svg">
+                      <img src="icons/hotel-bl.svg">
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="col-md-3">
+                  <div class="destination_box">
+                    <a href="#"><img class="img-responsive zoom" src="images/bali.jpg"></a>
+                    <div class="mask_box"></div>
+                    <div class="mask_content">
+                      <h5>Best under the sky</h5>
+                      <h3>Bali</h3>
+                    </div>
+
+                    <div class="destination_content">
+                      <h4>Bali</h4>
+                      <p>Sitting in the lap of lofty mountains, Beaches is a paradise for nature lovers.</p>
+                    </div>
+
+                    <div class="mask_icons">
+                      <img src="icons/earth-wt.svg">
+                      <img src="icons/ship-wt.svg">
+                      <img src="icons/Aeroplane-wt.svg">
+                      <img src="icons/hotel-wt.svg">
+                    </div>
+
+                    <div class="mask_icons2">
+                      <img src="icons/earth-bl.svg">
+                      <img src="icons/ship-bl.svg">
+                      <img src="icons/Aeroplane-bl.svg">
+                      <img src="icons/hotel-bl.svg">
+                    </div>
+
+
+                  </div>
+                </div>
+
+                <div class="col-md-3">
+                  <div class="destination_box">
+                    <a href="#">
+                      <img class="img-responsive zoom" src="images/singapore.jpg"></a>
+                    <div class="mask_box"></div>
+                    <div class="mask_content">
+                      <h5>A Beauty of City</h5>
+                      <h3>Singapore</h3>
+                    </div>
+
+                    <div class="destination_content">
+                      <h4>Singapore</h4>
+                      <p>Singapore, the Land of Beauty, wins hearts with its simplicity and rugged natural beauty.</p>
+                    </div>
+
+                    <div class="mask_icons">
+                      <img src="icons/earth-wt.svg">
+                      <img src="icons/ship-wt.svg">
+                      <img src="icons/Aeroplane-wt.svg">
+                      <img src="icons/hotel-wt.svg">
+                    </div>
+
+                    <div class="mask_icons2">
+                      <img src="icons/earth-bl.svg">
+                      <img src="icons/ship-bl.svg">
+                      <img src="icons/Aeroplane-bl.svg">
+                      <img src="icons/hotel-bl.svg">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-3">
+                  <div class="destination_box">
+                    <a href="#"><img class="img-responsive zoom" src="images/phuket&krabi.jpg"> </a>
+                    <div class="mask_box"></div>
+                    <div class="mask_content">
+                      <h5>Romantic Destinations</h5>
+                      <h3>Phuket & Krabi</h3>
+                    </div>
+
+                    <div class="destination_content">
+                      <h4>Phuket & Krabi</h4>
+                      <p>Phuket & Krabi is most Romantic Destinations for HONEYMOONERS</p>
+                    </div>
+
+                    <div class="mask_icons">
+                      <img src="icons/earth-wt.svg">
+                      <img src="icons/ship-wt.svg">
+                      <img src="icons/Aeroplane-wt.svg">
+                      <img src="icons/hotel-wt.svg">
+                    </div>
+
+                    <div class="mask_icons2">
+                      <img src="icons/earth-bl.svg">
+                      <img src="icons/ship-bl.svg">
+                      <img src="icons/Aeroplane-bl.svg">
+                      <img src="icons/hotel-bl.svg">
+                    </div>
+
+
+                  </div>
+                </div>
+
+
+              </div>
+
+              <div class="col-md-12 custom_destination">
+                <div class="col-md-3">
+                  <div class="destination_box">
+                    <a href="#"> <img class="img-responsive zoom" src="images/malaysia.jpg"></a>
+                    <div class="mask_box"></div>
+                    <div class="mask_content">
+                      <h5>It begins with the people</h5>
+                      <h3>Malaysia</h3>
+                    </div>
+
+                    <div class="destination_content">
+                      <h4>Malaysia</h4>
+                      <p>For the perfect holiday full of surprises, the time is now, the place is Malaysia</p>
+                    </div>
+
+                    <div class="mask_icons">
+                      <img src="icons/earth-wt.svg">
+                      <img src="icons/ship-wt.svg">
+                      <img src="icons/Aeroplane-wt.svg">
+                      <img src="icons/hotel-wt.svg">
+                    </div>
+
+                    <div class="mask_icons2">
+                      <img src="icons/earth-bl.svg">
+                      <img src="icons/ship-bl.svg">
+                      <img src="icons/Aeroplane-bl.svg">
+                      <img src="icons/hotel-bl.svg">
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="col-md-3">
+                  <div class="destination_box">
+                    <a href="#"><img class="img-responsive zoom" src="images/thailand.jpg"></a>
+                    <div class="mask_box"></div>
+                    <div class="mask_content">
+                      <h5>Explore the Amazing Thailand</h5>
+                      <h3>Thailand</h3>
+                    </div>
+
+                    <div class="destination_content">
+                      <h4>Thailand</h4>
+                      <p>Fascinating beaches, culture & climate Thailand is most famous destinations.</p>
+                    </div>
+
+                    <div class="mask_icons">
+                      <img src="icons/earth-wt.svg">
+                      <img src="icons/ship-wt.svg">
+                      <img src="icons/Aeroplane-wt.svg">
+                      <img src="icons/hotel-wt.svg">
+                    </div>
+
+                    <div class="mask_icons2">
+                      <img src="icons/earth-bl.svg">
+                      <img src="icons/ship-bl.svg">
+                      <img src="icons/Aeroplane-bl.svg">
+                      <img src="icons/hotel-bl.svg">
+                    </div>
+
+
+                  </div>
+                </div>
+
+                <div class="col-md-3">
+                  <div class="destination_box">
+                    <a href="#">
+                      <img class="img-responsive zoom" src="images/europe.jpg"></a>
+                    <div class="mask_box"></div>
+                    <div class="mask_content">
+                      <h5>Fall in love with Europe</h5>
+                      <h3>Europe</h3>
+                    </div>
+
+                    <div class="destination_content">
+                      <h4>Europe</h4>
+                      <p>Europe is some of the most visited tourist destinations in the world.</p>
+                    </div>
+
+                    <div class="mask_icons">
+                      <img src="icons/earth-wt.svg">
+                      <img src="icons/ship-wt.svg">
+                      <img src="icons/Aeroplane-wt.svg">
+                      <img src="icons/hotel-wt.svg">
+                    </div>
+
+                    <div class="mask_icons2">
+                      <img src="icons/earth-bl.svg">
+                      <img src="icons/ship-bl.svg">
+                      <img src="icons/Aeroplane-bl.svg">
+                      <img src="icons/hotel-bl.svg">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-3">
+                  <div class="destination_box">
+                    <a href="#"><img class="img-responsive zoom" src="images/dubai.jpg"> </a>
+                    <div class="mask_box"></div>
+                    <div class="mask_content">
+                      <h5>The Country for Luxury</h5>
+                      <h3>Dubai</h3>
+                    </div>
+
+                    <div class="destination_content">
+                      <h4>Dubai</h4>
+                      <p>Discover Dubai's most memorable sights from the water</p>
+                    </div>
+
+                    <div class="mask_icons">
+                      <img src="icons/earth-wt.svg">
+                      <img src="icons/ship-wt.svg">
+                      <img src="icons/Aeroplane-wt.svg">
+                      <img src="icons/hotel-wt.svg">
+                    </div>
+
+                    <div class="mask_icons2">
+                      <img src="icons/earth-bl.svg">
+                      <img src="icons/ship-bl.svg">
+                      <img src="icons/Aeroplane-bl.svg">
+                      <img src="icons/hotel-bl.svg">
+                    </div>
+
+
+                  </div>
+                </div>
+
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="text-center">
+          <a href="#">
+            <button class="dest-button text-center ">View More</button>
+          </a>
+        </div>
+      </section>
+
+      <section class="counter">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-3 ">
+              <div class="counter_flex">
+
+                <div class="image_icon">
+                  <img src="icons/count-earth.svg" class="text-center">
+                </div>
+
+                <div class="counter-text">
+                  <h3 class="count ">248</h3>
+                  <p>Destinations</p>
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="col-sm-3">
+              <div class="counter_flex">
+                <div class="image_icon">
+                  <img src="icons/count-hotel.svg" class="text-center">
+                </div>
+
+                <div class="counter-text">
+                  <h3 class="count ">507</h3>
+                  <p>Hotels</p>
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="col-sm-3 ">
+              <div class="counter_flex">
+
+                <div class="image_icon">
+                  <img src="icons/count-photographer.svg" class="text-center">
+                </div>
+
+                <div class="counter-text">
+                  <h3 class="count ">987</h3>
+                  <p>Tourists</p>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-sm-3 ">
+              <div class="counter_flex">
+
+                <div class="image_icon">
+                  <img src="icons/count-airplane.svg" class="text-center">
+                </div>
+
+                <div class="counter-text">
+                  <h3 class="count ">891</h3>
+                  <p>Tour</p>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="blog">
+        <h2 class="text-center ">Latest Blog</h2>
+        <p class="detail text-center ">Checkout our Latest Blogs and News</p>
+
+        <div class="container">
+          <div class="row">
+
+            <div class="blog_post slider">
+              <div class="col-sm-3">
+                <div class="blog_img">
+                  <div class="travel_img">
+                    <img src="images/solofemaletraveler.jpg" class="img-resoonsive">
+                  </div>
+                  <h4>Solo Female Travel in India:Best Tips by Blossom O’Bradovich</h4>
+                  <p>Solo traveling in India is on rise and many Indian girls are also into it. On Social Media and
+                    several
+                    blogs, you can find the updates and stories of Indian solo female travelers. But it has to go a long
+                    way
+                    before we can ......</p>
+                  <p></p>
+                </div>
+              </div>
+
+              <div class="col-sm-3">
+                <div class="blog_img">
+
+
+                  <div class="travel_img">
+                    <img src="images/boat.jpg" class="img-resoonsive">
+                  </div>
+                  <h4>These 3 Articles Sure TEMPT You To Visit Kerala Over And Over Again</h4>
+                  <p>Why is Kerala Tourism on rise? Because, traveling to Kerala is a complete tour package. If you have
+                    time,
+                    you can spend months and months to explore every aspect of Kerala. It has abandons of the natural
+                    extravaganza-..........</p>
+                </div>
+              </div>
+
+              <div class="col-sm-3">
+                <div class="blog_img">
+
+                  <div class="travel_img">
+                    <img src="images/bengaltiger.jpg" class="img-resoonsive">
+                  </div>
+                  <h4>Offbeat Travel Destinations in Kerala to Rejuvenate Your Body & Soul</h4>
+                  <p>Kerala, often touted as the heaven on earth after Jammu & Kashmir albeit rightfully so, offers a
+                    plethora
+                    of offbeat travel destinations that often go unexplored by the bounty travellers. Written by
+                    Abhilasha
+                    Bahadur.......</p>
+
+                </div>
+              </div>
+
+              <div class="col-sm-3">
+                <div class="blog_img">
+
+                  <div class="travel_img">
+                    <img src="images/155travel.jpg" class="img-resoonsive">
+                  </div>
+                  <h4>155 Travel Quotes – Explore These Travel Quotes & Get A Reason To Travel</h4>
+                  <p>“Traveling is symbolic to life. Life is a journey in itself.” Every living thing constantly changes
+                    its
+                    position in this universe. Human beings have been roaming from one place to another since eternity.
+                    ⇒First, they traveled......</p>
+                </div>
+              </div>
+
+              <div class="col-sm-3">
+                <div class="blog_img">
+
+
+                  <div class="travel_img">
+                    <img src="images/water_dubai.jpg" class="img-resoonsive">
+                  </div>
+                  <h4>Best Things to do in DUBAI</h4>
+                  <p>Standing 828 metres high, the Burj Khalifa is hard to miss. The world’s tallest tower naturally
+                    dominates
+                    the Dubai skyline, but the true majesty of the building is best.....</p>
+                </div>
+              </div>
+
+              <div class="col-sm-3">
+                <div class="blog_img">
+
+
+                  <div class="travel_img">
+                    <img src="images/bird.jpg" class="img-resoonsive">
+                  </div>
+                  <h4>Best Things to do in DUBAI</h4>
+                  <p>The famous Bharatpur Bird Sanctuary also known as Keoladeo Ghana National Park is situated in
+                    Rajasthan.
+                    Bharatpur bird sanctuary is one of the best bird sanctuaries......</p>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+
+
+          <div class="text-center">
+            <a href="#">
+              <button class="dest-button text-center ">View More</button>
+            </a>
+
+          </div>
+
+      </section>
+
+      <section class="newsletter">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 custom_flex">
+
+              <div class="col-md-5">
+                <span>Subscribe to our Newsletter</span>
+                <h3 class="discover text-right">& Discover the best offers!</h3>
+              </div>
+
+              <div class="col-md-7">
+                <div class="input-group ">
+                  <input type="email" id="email" name="email" class=" news-input" placeholder="Enter Your Email"
+                    required>
+                  <button type="submit" class=" button-default"> <i class="fas fa-paper-plane"></i> Subscribe</button>
+
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+    </div>
+
+
+    <footer>
+
+      <div class="container">
+          <div class="row">
+              <div class="footer_item">
+                  <div class="footer_first">
+                      <h4>Akshay Travel ( a unit of )<br>
+                          AKSHAY TRAVEL AND TOURISM PVT. LTD.</h4>
+
+
+                      <div class="address">
+                          <i class="fas fa-map-marker-alt"></i>
+                          <p>Plot No. 6, 2nd Floor, Jwalaheri Market,
+                              Above <br>Richlook, Paschim Vihar,
+                              New Delhi 110063.</p>
+                      </div>
+
+                      <div class="address">
+                          <i class="fas fa-phone"></i>
+                          <p><a href="tel:9990444740"> +91 9990444740</a>, <a href="tel:9990444774">9990444774</a>
+                          </p>
+                      </div>
+
+                      <div class="address">
+                          <i class="fas fa-envelope"></i>
+                          <p>info@lightsindark.in</p>
+                      </div>
+
+                      <div class="address-icon">
+                          <ul class="list-inline">
+                              <li><a><i class="fab fa-facebook-f"></i></a></li>
+                              <li><a><i class="fab fa-google-plus-g"></i></a></li>
+                              <li><a><i class="fab fa-instagram"></i></a></li>
+                              <li><a><i class="fab fa-youtube"></i></a></li>
+
+                          </ul>
+                      </div>
+                  </div>
+
+                  <div class="footer_first">
+                      <h4>Destinations</h4>
+
+                      <div class="footer_links">
+                          <ul>
+                              <li><a>Maldives</a></li>
+                              <li><a>Bali</a></li>
+                              <li><a>Phuket & Krabi</a></li>
+                              <li><a>Singapore & Malaysia</a></li>
+                              <li><a>Dubai</a></li>
+                              <li><a>Europe</a></li>
+                              <li><a>Kerala</a></li>
+                              <li><a>Shimla Manali</a></li>
+                              <li><a>Kashmir</a></li>
+                              <li><a>Andaman & Nicobar</a></li>
+
+                          </ul>
+                      </div>
+                  </div>
+
+                  <div class="footer_first">
+                      <div class="footer_box">
+                          <h4>Sales Offices Locations:</h4>
+
+
+                          <div class="address">
+                              <i class="fas fa-map-marker-alt"></i>
+                              <p>Mumbai | Pune | Jalandhar | Ahmedabad</p>
+                          </div>
+
+                          <hr style="margin: 20px 0; border-top:2px solid #eee;">
+                          <h4 class="last_head">Operation Offices Locations:</h4>
+
+
+                          <div class="address">
+                              <i class="fas fa-map-marker-alt"></i>
+                              <p>Cochin, Kerala | Srinagar, Jammu & Kashmir | Manali, Himachal Pradesh | Shimla,
+                                  Himachal Pradesh |
+                                  Gangtok, Sikkim | Darjeeling, West Bengal | Goa | Dharamshala, Himachal Pradesh
+                                  | Pattaya, Thailand
+                              </p>
+                          </div>
+
+                      </div>
+
+                  </div>
+
+              </div>
+
+
+              <hr style="margin: 20px 0; color: #eee;">
+
+              <div class="col-md-12">
+                  <div class="footer_bottom">
+                      <div class="footer_lower">
+                          <p class="footer_last">Copyright © 2014. Akshay Travel AND Tourism Pvt. Ltd.. All
+                              rights reserved.
+                          </p>
+                      </div>
+
+                      <div class="footer_lower">
+                          <div class="footer_nav">
+                              <ul class="list-inline">
+                                  <li><a>Home</a></li>
+                                  <li><a>About</a></li>
+                                  <li><a>Service</a></li>
+                                  <li><a>Reviews</a></li>
+                                  <li><a>Gallery</a></li>
+                                  <li><a>Terms & Condition</a></li>
+
+                              </ul>
+                          </div>
+                      </div>
+
+                  </div>
+
+              </div>
+
+          </div>
+
+      </div>
+
+
+
+
+  </footer>
+
+
+    <div class="scroll_btn" onclick="moveto();">
+      <i class="fas fa-chevron-up"></i>
+
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.counterup.min.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>

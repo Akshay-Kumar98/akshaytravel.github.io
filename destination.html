@@ -1,0 +1,2200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshay Travel & Tourism</title>
+    <link rel="icon" href="images/icon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css.map">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://kit.fontawesome.com/86f74b1471.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div class="page">
+
+
+        <div class="header">
+
+            <div class="head_logo">
+                <a href="index.html"><img src="images/Travel logo-01.svg"></a>
+            </div>
+
+
+            <div class="menuline">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+
+            </div>
+
+        </div>
+
+
+        <div class="sidebar" id="head_nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a class="go" href="destination.html">Destinations</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="pay.html">Pay Now</a></li>
+            </ul>
+        </div>
+
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img src="images/Travel logo-01.svg"></a>
+            </div>
+            <div class="menu">
+                <ul id="change">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a class="go" href="destination.html">Destinations</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="pay.html">Pay Now</a></li>
+                </ul>
+            </div>
+
+
+        </nav>
+
+        <div class="search_box"  id="opendiv">
+            <span class="times" onclick="closebox();">&times;</span>
+
+            <div class="input_box text-center">
+                <input type="text" name="text" id="text" placeholder="Type search keywords here">
+
+                <a href="destination.html"><button type="submit"> <i class="fa-solid fa-magnifying-glass"></i> Search </button></a>
+                
+            </div>
+
+            
+
+
+        </div>
+        <div class="section-index ">
+
+
+
+            <section class="destination_banner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="about_content">
+                                <h2>BEST TOUR DESTINATIONS AROUND THE WORLD.</h2>
+
+                                <div aria-label="breadcrumb" class="nav-list">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item"><a href="index.html" class="differ_text">Home</a>
+                                        </li>
+                                        <li class="breadcrumb-item " aria-current="page"><a
+                                                class="normal">Destinations</a>
+                                        </li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+
+            <div class="portfolio">
+                <div class="row">
+                    <div class=" col-md-12 tab-panel">
+                        <div class="col-md-3 select-path">
+                            <h4>Select your Destination</h4>
+                        </div>
+                        <div class="col-md-9 select-nav">
+                            <ul>
+                                <li class="onmouse"><a id="all">All</a></li>
+                                <li class="customhover"><a id="india" class="customanchor">India</a></li>
+                                <li class="customhover"><a id="australia" class="customanchor">Australia & New
+                                        Zealand</a></li>
+                                <li class="customhover"><a id="africa" class="customanchor">Africa</a></li>
+                                <li class="customhover"><a id="thailand" class="customanchor">Thailand</a></li>
+                                <li class="customhover"><a id="europe" class="customanchor">Europe</a></li>
+                                <li class="customhover"><a id="america" class="customanchor">America</a></li>
+                                <li class="customhover"><a id="asia" class="customanchor">Asia</a></li>
+                                <li class="customhover"><a id="middleeast" class="customanchor">MiddleEast</a></li>
+                                <li><a class="search-icon" onclick="openbox();"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+
+            <section class="destination_img">
+                <div class="portfolio-panel">
+                    <div class="container">
+                        <div class="row custom_destination">
+
+                            <div class="col-md-3 custom_destinationbox  dest_india">
+                                <div class="destination_box">
+                                    <a href="#"> <img class="img-responsive zoom" src="images/dalhouise.jpg"
+                                            alt="india"></a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>Dalhousie & Dharamshala</h4>
+                                    </div>
+
+                                    <div class="destination_content">
+                                        <h4>Dalhousie</h4>
+                                        <p>Known for its amusing climate and natural beauty, Dalhousie is one of the
+                                            well-known hill stations in Himachal Pradesh</p>
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-3 custom_destinationbox dest_india">
+                                <div class="destination_box">
+                                    <a href="#"><img class="img-responsive zoom" src="images/goa.jpg" alt="india"></a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>Goa</h4>
+                                    </div>
+
+                                    <div class="destination_content">
+                                        <h4>Goa</h4>
+                                        <p>Lying on the western coast of Indian Peninsula, Goa is a mix of natural
+                                            andcultural heritage.</p>
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 custom_destinationbox dest_india">
+                                <div class="destination_box">
+                                    <a href="#">
+                                        <img class="img-responsive zoom" src="images/kashmir-t.jpg" alt="india"></a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>Jammu & Kashmir</h4>
+                                    </div>
+
+                                    <div class="destination_content">
+                                        <h4>Jammu & Kashmir</h4>
+                                        <p>A land of unmatched scenic beauty and rich culture, Kashmir truly is a
+                                            ‘Heaven on Earth’.
+                                        </p>
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 custom_destinationbox dest_india">
+                                <div class="destination_box">
+                                    <a href="#"><img class="img-responsive zoom" src="images/kerala.jpg" alt="india">
+                                    </a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>Kerala</h4>
+                                    </div>
+
+                                    <div class="destination_content">
+                                        <h4>Kerala</h4>
+                                        <p>True to its popular name, ‘God’s Own Country’, the state of Kerala is a
+                                            treasure chest of natural wonders.</p>
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+
+
+
+
+                            <div class="col-md-3 custom_destinationbox dest_india">
+                                <div class="destination_box">
+                                    <a href="#"> <img class="img-responsive zoom" src="images/leh.jpg" alt="india"></a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>Leh Ladakh</h4>
+                                    </div>
+
+                                    <div class="destination_content">
+                                        <h4>Leh Ladakh</h4>
+                                        <p>Ladakh, the Land of High Passes, wins hearts with its simplicity and
+                                            rugged natural beauty.</p>
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-3 custom_destinationbox dest_india">
+                                <div class="destination_box">
+                                    <a href="#"><img class="img-responsive zoom" src="images/manali.jpg"
+                                            alt="india"></a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>Manali & Shimla</h4>
+                                    </div>
+
+                                    <div class="destination_content">
+                                        <h4>Manali & Shimla</h4>
+                                        <p>Sitting in the lap of lofty mountains, Manali is a paradise for nature
+                                            lovers.</p>
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 custom_destinationbox dest_thailand">
+                                <div class="destination_box">
+                                    <a href="#">
+                                        <img class="img-responsive zoom" src="images/thai.jpg"></a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>Phi Phi Island</h4>
+                                    </div>
+
+                                    <div class="destination_content">
+                                        <h4>Phi Phi Island</h4>
+                                        <p>The Phi Phi Islands are an island group in Thailand, between the large
+                                            island of Phuket and the west Strait of Malacca coast of the mainland.
+                                        </p>
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 custom_destinationbox dest_thailand">
+                                <div class="destination_box">
+                                    <a href="#"><img class="img-responsive zoom" src="images/phuket.jpg"> </a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>Phuket</h4>
+                                    </div>
+
+                                    <div class="destination_content">
+                                        <h4>Phuket</h4>
+                                        <p>Phuket is dramatic karst islands and relaxed beaches in Thailand</p>
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+
+
+
+
+
+                            <div class="col-md-3 custom_destinationbox dest_thailand">
+                                <div class="destination_box">
+                                    <a href="#"> <img class="img-responsive zoom" src="images/bangkok.jpg"></a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>Bangkok</h4>
+                                    </div>
+
+                                    <div class="destination_content">
+                                        <h4>Bangkok</h4>
+                                        <p>Bangkok, Thailand’s capital, is a large city known for ornate shrines and
+                                            vibrant street life.</p>
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-3 custom_destinationbox dest_thailand">
+                                <div class="destination_box">
+                                    <a href="#"><img class="img-responsive zoom" src="images/krabi.png"></a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>Krabi</h4>
+                                    </div>
+
+                                    <div class="destination_content">
+                                        <h4>Krabi</h4>
+                                        <p>Krabi is one of the best destination for the honymooners around the
+                                            world.</p>
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 custom_destinationbox dest_thailand">
+                                <div class="destination_box">
+                                    <a href="#">
+                                        <img class="img-responsive zoom" src="images/malaysia (1).jpg"></a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>Pattaya</h4>
+                                    </div>
+
+                                    <div class="destination_content">
+                                        <h4>Pattaya</h4>
+                                        <p>Pattaya is a city on Thailand’s eastern Gulf coast known for its beaches.
+                                        </p>
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 custom_destinationbox dest_australia">
+                                <div class="destination_box">
+                                    <a href="#"><img class="img-responsive zoom" src="images/sydney.jpg"> </a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>Sydney</h4>
+                                    </div>
+
+                                    <div class="destination_content">
+                                        <h4>Sydney</h4>
+                                        <p>Sydney, capital of New South Wales and one of Australia's largest cities,
+                                            is best known for its harbourfront Sydney Opera House, with a
+                                            distinctive sail-like design.</p>
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+
+
+
+
+
+
+                            <div class="col-md-3 custom_destinationbox dest_australia">
+                                <div class="destination_box">
+                                    <a href="#"> <img class="img-responsive zoom" src="images/melbourne.jpg"></a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>Melbourne</h4>
+                                    </div>
+
+                                    <div class="destination_content">
+                                        <h4>Melbourne</h4>
+                                        <p>Melbourne is the coastal capital of the southeastern Australian state of
+                                            Victoria.</p>
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-3 custom_destinationbox dest_australia">
+                                <div class="destination_box">
+                                    <a href="#"><img class="img-responsive zoom" src="images/perth.jpg"></a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>Perth</h4>
+                                    </div>
+
+                                    <div class="destination_content">
+                                        <h4>Perth</h4>
+                                        <p>Perth, capital of Western Australia, sits where the Swan River meets the
+                                            southwest coast.</p>
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 custom_destinationbox dest_australia">
+                                <div class="destination_box">
+                                    <a href="#">
+                                        <img class="img-responsive zoom" src="images/auckland.jpg"></a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>Auckland</h4>
+                                    </div>
+
+                                    <div class="destination_content">
+                                        <h4>Auckland</h4>
+                                        <p>Auckland is New Zealand's largest city and main transport hub. Make sure
+                                            you stop and enjoy the shopping, dining and natural wonders Auckland has
+                                            to offer.</p>
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 custom_destinationbox dest_australia">
+                                <div class="destination_box">
+                                    <a href="#"><img class="img-responsive zoom" src="images/queenstown.jpg"> </a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>Queenstown</h4>
+                                    </div>
+
+                                    <div class="destination_content">
+                                        <h4>Queenstown</h4>
+                                        <p>Queenstown is one of New Zealand's top visitor destinations and if you
+                                            come to the region you'll understand why</p>
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+
+
+
+
+
+                            <div class="col-md-3 custom_destinationbox dest_africa">
+                                <div class="destination_box">
+                                    <a href="#"> <img class="img-responsive zoom" src="images/mauritius.jpg"></a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>Mauritius</h4>
+                                    </div>
+
+                                    <div class="destination_content">
+                                        <h4>Mauritius</h4>
+                                        <p>Mauritius will enchant you, will uplift your soul, making you feel that
+                                            you belong to the chosen few.</p>
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-3 custom_destinationbox dest_africa">
+                                <div class="destination_box">
+                                    <a href="#"><img class="img-responsive zoom" src="images/tenerife.jpg"></a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>Tenerife</h4>
+                                    </div>
+
+                                    <div class="destination_content">
+                                        <h4>Tenerife</h4>
+                                        <p>In Tenerife you can do anything you feel like any day of the year thanks
+                                            to its climate, natural surroundings and tourist infrastructure designed
+                                            for fun for all the family.</p>
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 custom_destinationbox dest_africa">
+                                <div class="destination_box">
+                                    <a href="#">
+                                        <img class="img-responsive zoom" src="images/seychelles.jpg"></a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>Seychelles</h4>
+                                    </div>
+
+                                    <div class="destination_content">
+                                        <h4>Seychelles</h4>
+                                        <p>The Seychelles is an archipelago of 115 islands in the Indian Ocean, off
+                                            East Africa. It's home to numerous beaches, coral reefs and nature
+                                            reserves.</p>
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 custom_destinationbox dest_africa">
+                                <div class="destination_box">
+                                    <a href="#"><img class="img-responsive zoom" src="images/southafrica.jpg"> </a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>South Africa</h4>
+                                    </div>
+
+                                    <div class="destination_content">
+                                        <h4>South Africa</h4>
+                                        <p>South Africa is a country on the African continent, marked by several
+                                            distinct ecosystems. Inland safari destination Kruger National Park is
+                                            populated by big game.</p>
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+
+
+
+
+                            <!-- <div class="col-md-12 custom_destination" > -->
+                            <div class="col-md-3 custom_destinationbox dest_africa">
+                                <div class="destination_box">
+                                    <a href="#"> <img class="img-responsive zoom" src="images/egypt.jpg"></a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>Egypt</h4>
+                                    </div>
+
+                                    <div class="destination_content">
+                                        <h4>Egypt</h4>
+                                        <p>Egypt, a country linking northeast Africa with the Middle East, dates to
+                                            the time of the pharaohs.</p>
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-3 custom_destinationbox dest_africa">
+                                <div class="destination_box">
+                                    <a href="#"><img class="img-responsive zoom" src="images/morocco.jpg"></a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>Morocco</h4>
+                                    </div>
+
+                                    <div class="destination_content">
+                                        <h4>Morocco</h4>
+                                        <p>Morocco, a North African country bordering the Atlantic Ocean and
+                                            Mediterranean Sea, is distinguished by its Berber, Arabian and European
+                                            cultural influences.</p>
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 custom_destinationbox dest_africa">
+                                <div class="destination_box">
+                                    <a href="#">
+                                        <img class="img-responsive zoom" src="images/botswana.jpg"></a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>Botswana</h4>
+                                    </div>
+
+                                    <div class="destination_content">
+                                        <h4>Botswana</h4>
+                                        <p>Home to large populations of wildlife, rugged national parks, wetlands
+                                            alive with birds and one of the world’s largest deltas, Botswana’s
+                                            bounty of natural treasures is remarkable.</p>
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 custom_destinationbox dest_africa">
+                                <div class="destination_box">
+                                    <a href="#"><img class="img-responsive zoom" src="images/ghana.jpg"> </a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>Ghana</h4>
+                                    </div>
+
+                                    <div class="destination_content">
+                                        <h4>Ghana</h4>
+                                        <p>Ghana, a nation on West Africa’s Gulf of Guinea, is known for diverse
+                                            wildlife, old forts and secluded beaches, such as at Busu.</p>
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+
+
+
+
+
+                            <div class="col-md-3 custom_destinationbox dest_europe">
+                                <div class="destination_box">
+                                    <a href="#"> <img class="img-responsive zoom" src="images/russia.jpg"></a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>Russia</h4>
+                                    </div>
+
+                                    <div class="destination_content">
+                                        <h4>Russia</h4>
+                                        <p>Russia, the world’s largest nation, borders European and Asian countries
+                                            as well as the Pacific and Arctic oceans.</p>
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-3 custom_destinationbox dest_europe">
+                                <div class="destination_box">
+                                    <a href="#"><img class="img-responsive zoom" src="images/poland.jpg"></a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>Poland</h4>
+                                    </div>
+
+                                    <div class="destination_content">
+                                        <h4>Poland</h4>
+                                        <p>Poland is an eastern European country on the Baltic Sea known for its
+                                            medieval architecture and Jewish heritage.</p>
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 custom_destinationbox dest_europe">
+                                <div class="destination_box">
+                                    <a href="#">
+                                        <img class="img-responsive zoom" src="images/germany.jpg"></a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>Germany</h4>
+                                    </div>
+
+                                    <div class="destination_content">
+                                        <h4>Germany</h4>
+                                        <p>Germany is a riveting journey of surprise, every turn effortlessly
+                                            matching the mood and combining the best of old and new Europe.</p>
+
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 custom_destinationbox dest_europe">
+                                <div class="destination_box">
+                                    <a href="#"><img class="img-responsive zoom" src="images/england.jpg"> </a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>England</h4>
+                                    </div>
+
+                                    <div class="destination_content">
+                                        <h4>England</h4>
+                                        <p>England, is a country in the British Isles bordering Scotland and Wales.
+                                            The capital, London, on the River Thames, is home of Parliament, Big Ben
+                                            and the 11th-century Tower of London.</p>
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+
+
+
+
+                            <div class="col-md-3 custom_destinationbox dest_europe">
+                                <div class="destination_box">
+                                    <a href="#"> <img class="img-responsive zoom" src="images/switzerland.jpg"></a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>Switzerland</h4>
+                                    </div>
+
+                                    <div class="destination_content">
+                                        <h4>Switzerland</h4>
+                                        <p>Switzerland is a mountainous Central European country, home to numerous
+                                            lakes, villages and the high peaks of the Alps.</p>
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-3 custom_destinationbox dest_europe">
+                                <div class="destination_box">
+                                    <a href="#"><img class="img-responsive zoom" src="images/turkey.jpg"></a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>Turkey</h4>
+                                    </div>
+
+                                    <div class="destination_content">
+                                        <h4>Turkey</h4>
+                                        <p>Turkey is a nation straddling eastern Europe and western Asia with
+                                            cultural connections to ancient Greek, Persian, Roman, Byzantine and
+                                            Ottoman empires.</p>
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 custom_destinationbox dest_europe">
+                                <div class="destination_box">
+                                    <a href="#">
+                                        <img class="img-responsive zoom" src="images/italy.jpg"></a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>Italy</h4>
+                                    </div>
+
+                                    <div class="destination_content">
+                                        <h4>Italy</h4>
+                                        <p>Italy is a country that’s as varied as the palettes of its great
+                                            Renaissance artists, awash with color and culture.</p>
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 custom_destinationbox dest_europe">
+                                <div class="destination_box">
+                                    <a href="#"><img class="img-responsive zoom" src="images/netherland.jpg"> </a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>Netherland</h4>
+                                    </div>
+
+                                    <div class="destination_content">
+                                        <h4>Netherland</h4>
+                                        <p>The Netherlands, a country in northwestern Europe, is known for a flat
+                                            landscape of canals, tulip fields, windmills and cycling routes.</p>
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+
+
+
+
+                            <div class="col-md-3 custom_destinationbox dest_europe">
+                                <div class="destination_box">
+                                    <a href="#"> <img class="img-responsive zoom" src="images/france.jpg"></a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>France</h4>
+                                    </div>
+
+                                    <div class="destination_content">
+                                        <h4>France</h4>
+                                        <p>Admired the world over for its impeccable taste and effortless style,
+                                            France celebrates beauty, sophistication and style.</p>
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-3 custom_destinationbox dest_europe">
+                                <div class="destination_box">
+                                    <a href="#"><img class="img-responsive zoom" src="images/spain.jpg"></a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>Spain</h4>
+                                    </div>
+
+                                    <div class="destination_content">
+                                        <h4>Spain</h4>
+                                        <p>If one has to think of an ultimate holiday destination then Spain comes
+                                            to mind instantly.</p>
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 custom_destinationbox dest_america">
+                                <div class="destination_box">
+                                    <a href="#">
+                                        <img class="img-responsive zoom" src="images/panama.jpg"></a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>Panama</h4>
+                                    </div>
+
+                                    <div class="destination_content">
+                                        <h4>Panama</h4>
+                                        <p>Panama is a country on the isthmus linking Central and South America.</p>
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 custom_destinationbox dest_america">
+                                <div class="destination_box">
+                                    <a href="#"><img class="img-responsive zoom" src="images/costa.jpg"> </a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>Costa Rica</h4>
+                                    </div>
+
+                                    <div class="destination_content">
+                                        <h4>Costa Rica</h4>
+                                        <p>Costa Rica is a rugged, rainforested Central American country with
+                                            coastlines on the Caribbean and Pacific.</p>
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+
+
+
+
+                            <div class="col-md-3 custom_destinationbox dest_america">
+                                <div class="destination_box">
+                                    <a href="#"> <img class="img-responsive zoom" src="images/brazil.jpg"></a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>Brazil</h4>
+                                    </div>
+
+
+                                    <div class="destination_content">
+                                        <h4>Brazil</h4>
+                                        <p>Brazil, which is the largest country in Latin America and the fifth
+                                            largest in the world, serves as a popular destination for globetrotters.
+                                        </p>
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-3 custom_destinationbox dest_america">
+                                <div class="destination_box">
+                                    <a href="#"><img class="img-responsive zoom" src="images/chile.jpg"></a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>Chile</h4>
+                                    </div>
+
+                                    <div class="destination_content">
+                                        <h4>Chile</h4>
+                                        <p>Let the magnitude and diversity of Chile’s landscape enrapture you. The
+                                            Pacific Ocean tumbles onto the vast sands as lush vineyards stretch
+                                            through valleys.</p>
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 custom_destinationbox dest_america">
+                                <div class="destination_box">
+                                    <a href="#">
+                                        <img class="img-responsive zoom" src="images/peru.jpg"></a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>Peru</h4>
+                                    </div>
+
+                                    <div class="destination_content">
+                                        <h4>Peru</h4>
+                                        <p>Peru is a country in South America that's home to a section of Amazon
+                                            rainforest and Machu Picchu, an ancient Incan city high in the Andes
+                                            mountains.</p>
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 custom_destinationbox dest_america">
+                                <div class="destination_box">
+                                    <a href="#"><img class="img-responsive zoom" src="images/mexico.jpg"> </a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>Mexico</h4>
+                                    </div>
+
+                                    <div class="destination_content">
+                                        <h4>Mexico</h4>
+                                        <p>Mexico is a country between the U.S. and Central America that's known for
+                                            its Pacific and Gulf of Mexico beaches.</p>
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+
+
+
+
+
+                            <div class="col-md-3 custom_destinationbox dest_america">
+                                <div class="destination_box">
+                                    <a href="#"> <img class="img-responsive zoom" src="images/usa.jpg"></a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>USA</h4>
+                                    </div>
+
+                                    <div class="destination_content">
+                                        <h4>USA</h4>
+                                        <p>The U.S. is a country of 50 states covering a vast swath of North
+                                            America, with Alaska in the northwest and Hawaii extending the nation’s
+                                            presence into the Pacific Ocean.</p>
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-3 custom_destinationbox dest_america">
+                                <div class="destination_box">
+                                    <a href="#"><img class="img-responsive zoom" src="images/canada.jpg"></a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>Canada</h4>
+                                    </div>
+
+                                    <div class="destination_content">
+                                        <h4>Canada</h4>
+                                        <p>Canada is a North American country stretching from the U.S. in the south
+                                            to the Arctic Circle in the north.</p>
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 custom_destinationbox dest_asia">
+                                <div class="destination_box">
+                                    <a href="#">
+                                        <img class="img-responsive zoom" src="images/vietnam.jpg"></a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>Vietnam</h4>
+                                    </div>
+
+                                    <div class="destination_content">
+                                        <h4>Vietnam</h4>
+                                        <p>Vietnam is like losing yourself in an artist's masterpiece. The country
+                                            effortlessly composes traditional scenes in an imaginative style.</p>
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 custom_destinationbox dest_asia">
+                                <div class="destination_box">
+                                    <a href="#"><img class="img-responsive zoom" src="images/singapore (1).jpg">
+                                    </a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>Singapore</h4>
+                                    </div>
+
+                                    <div class="destination_content">
+                                        <h4>Singapore</h4>
+                                        <p>Boasting of historical landmarks, diverse culture, religious sites,
+                                            exciting activities and events, Singapore is a popular tourist
+                                            destination.</p>
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+
+
+
+
+                            <div class="col-md-3 custom_destinationbox dest_asia">
+                                <div class="destination_box">
+                                    <a href="#"> <img class="img-responsive zoom" src="images/srilanka.jpg"></a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>Sri Lanka</h4>
+                                    </div>
+
+                                    <div class="destination_content">
+                                        <h4>Sri Lanka</h4>
+                                        <p>Sri Lanka is a wonderful tourist destination that has always lured
+                                            tourists from all over the world with its heritage, enticing beaches,
+                                            diverse wildlife, and exquisite landscapes.</p>
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-3 custom_destinationbox dest_asia">
+                                <div class="destination_box">
+                                    <a href="#"><img class="img-responsive zoom" src="images/malaysia (1).jpg"></a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>Malaysia</h4>
+                                    </div>
+
+                                    <div class="destination_content">
+                                        <h4>Malaysia</h4>
+                                        <p>If one is looking for an unforgettable holiday in one of the most
+                                            cherished destinations in the world</p>
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 custom_destinationbox dest_asia">
+                                <div class="destination_box">
+                                    <a href="#">
+                                        <img class="img-responsive zoom" src="images/maldives (1).jpg"></a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>Maldives</h4>
+                                    </div>
+
+                                    <div class="destination_content">
+                                        <h4>Maldives</h4>
+                                        <p>Despite of what it looks like on the map, Maldives is a not-so-tiny
+                                            archipelago in the Indian Ocean. It is a unique country, as about 99 per
+                                            cent of its total area is water.</p>
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 custom_destinationbox dest_asia">
+                                <div class="destination_box">
+                                    <a href="#"><img class="img-responsive zoom" src="images/japan.jpg"> </a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>Japan</h4>
+                                    </div>
+
+                                    <div class="destination_content">
+                                        <h4>Japan</h4>
+                                        <p>Japan is an island nation in the Pacific Ocean with dense cities,
+                                            imperial palaces, mountainous national parks and thousands of shrines
+                                            and temples.</p>
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+
+
+
+
+                            <div class="col-md-3 custom_destinationbox dest_asia">
+                                <div class="destination_box">
+                                    <a href="#"> <img class="img-responsive zoom" src="images/indonesia.jpg"></a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>Indonesia</h4>
+                                    </div>
+
+                                    <div class="destination_content">
+                                        <h4>Indonesia</h4>
+                                        <p>Indonesia is a beautiful country that fascinates many tourists around the
+                                            world. Besides being famous as the largest archipelago in the world.</p>
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-3 custom_destinationbox dest_asia">
+                                <div class="destination_box">
+                                    <a href="#"><img class="img-responsive zoom" src="images/china.jpg"></a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>China</h4>
+                                    </div>
+
+                                    <div class="destination_content">
+                                        <h4>China</h4>
+                                        <p>China is a populous nation in East Asia whose vast landscape encompasses
+                                            grassland, desert, mountains, lakes, rivers.</p>
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 custom_destinationbox dest_asia">
+                                <div class="destination_box">
+                                    <a href="#">
+                                        <img class="img-responsive zoom" src="images/bhutan.jpg"></a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>Bhutan</h4>
+                                    </div>
+
+                                    <div class="destination_content">
+                                        <h4>Bhutan</h4>
+                                        <p>Far away from the deafening hustle-bustle of urbanised civilisations,
+                                            Bhutan has managed to retain its timeless charm and natural heritage.
+                                        </p>
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 custom_destinationbox dest_middleeast">
+                                <div class="destination_box">
+                                    <a href="#"><img class="img-responsive zoom" src="images/dubaid.jpg"> </a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>Dubai</h4>
+                                    </div>
+
+                                    <div class="destination_content">
+                                        <h4>Dubai</h4>
+                                        <p>Dubai, the name itself is enough to make one think about outstanding
+                                            architecture, bustling shopping centres, towering corporate buildings
+                                            and charming beaches.</p>
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+
+
+
+
+                            <div class="col-md-3 custom_destinationbox dest_middleeast">
+                                <div class="destination_box">
+                                    <a href="#"> <img class="img-responsive zoom" src="images/abu-dhabi.jpg"></a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>Abu Dhabi</h4>
+                                    </div>
+
+                                    <div class="destination_content">
+                                        <h4>Abu Dhabi</h4>
+                                        <p>Abu Dhabi, the federal capital of UAE and the largest emirate by area,
+                                            houses the second largest human population after Dubai within the
+                                            country.</p>
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-3 custom_destinationbox dest_middleeast">
+                                <div class="destination_box">
+                                    <a href="#"><img class="img-responsive zoom" src="images/kuwait.jpg"></a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>Kuwait</h4>
+                                    </div>
+
+                                    <div class="destination_content">
+                                        <h4>Kuwait</h4>
+                                        <p>Kuwait, an Arab country on the Persian (Arabian) Gulf, has cultural
+                                            heritage dating back to antiquity. Kuwait City, the capital, is known
+                                            for its modern architecture.</p>
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 custom_destinationbox dest_middleeast">
+                                <div class="destination_box">
+                                    <a href="#">
+                                        <img class="img-responsive zoom" src="images/bahrain.jpg"></a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>Bahrain</h4>
+                                    </div>
+
+                                    <div class="destination_content">
+                                        <h4>Bahrain</h4>
+                                        <p>Bahrain, a nation comprising more than 30 islands in the Persian Gulf,
+                                            has been at the center of major trade routes since antiquity.</p>
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 custom_destinationbox dest_europe">
+                                <div class="destination_box">
+                                    <a href="#"><img class="img-responsive zoom" src="images/greece.jpg"> </a>
+                                    <div class="mask_box"></div>
+                                    <div class="mask_content">
+                                        <h4>Greece</h4>
+                                    </div>
+
+                                    <div class="destination_content">
+                                        <h4>Greece</h4>
+                                        <p>Taking pride in its world-renowned ancient heritage, Greece welcomes
+                                            visitors with its panoramic natural vistas, idyllic beaches and a
+                                            vibrant modern culture.</p>
+                                    </div>
+
+                                    <div class="mask_icons">
+                                        <img src="icons/earth-wt.svg">
+                                        <img src="icons/ship-wt.svg">
+                                        <img src="icons/Aeroplane-wt.svg">
+                                        <img src="icons/hotel-wt.svg">
+                                    </div>
+
+                                    <div class="mask_icons2">
+                                        <img src="icons/earth-bl.svg">
+                                        <img src="icons/ship-bl.svg">
+                                        <img src="icons/Aeroplane-bl.svg">
+                                        <img src="icons/hotel-bl.svg">
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+
+            <section class="custom_newsletter">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 custom_flex">
+
+                            <div class="col-md-5">
+                                <span>Subscribe to our Newsletter</span>
+                                <h3 class="discover text-right">& Discover the best offers!</h3>
+                            </div>
+
+                            <div class="col-md-7">
+                                <div class="input-group ">
+                                    <input type="email" id="email" name="email" class=" news-input"
+                                        placeholder="Enter Your Email" required>
+                                    <button type="submit" class=" button-default"> <i class="fas fa-paper-plane"></i>
+                                        Subscribe</button>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
+        </div>
+
+        <footer>
+
+            <div class="container">
+                <div class="row">
+                    <div class="footer_item">
+                        <div class="footer_first">
+                            <h4>Akshay Travel ( a unit of )<br>
+                                AKSHAY TRAVEL AND TOURISM PVT. LTD.</h4>
+
+
+                            <div class="address">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <p>Plot No. 6, 2nd Floor, Jwalaheri Market,
+                                    Above <br>Richlook, Paschim Vihar,
+                                    New Delhi 110063.</p>
+                            </div>
+
+                            <div class="address">
+                                <i class="fas fa-phone"></i>
+                                <p><a href="tel:9990444740"> +91 9990444740</a>, <a href="tel:9990444774">9990444774</a>
+                                </p>
+                            </div>
+
+                            <div class="address">
+                                <i class="fas fa-envelope"></i>
+                                <p>info@lightsindark.in</p>
+                            </div>
+
+                            <div class="address-icon">
+                                <ul class="list-inline">
+                                    <li><a><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a><i class="fab fa-google-plus-g"></i></a></li>
+                                    <li><a><i class="fab fa-instagram"></i></a></li>
+                                    <li><a><i class="fab fa-youtube"></i></a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="footer_first">
+                            <h4>Destinations</h4>
+
+                            <div class="footer_links">
+                                <ul>
+                                    <li><a>Maldives</a></li>
+                                    <li><a>Bali</a></li>
+                                    <li><a>Phuket & Krabi</a></li>
+                                    <li><a>Singapore & Malaysia</a></li>
+                                    <li><a>Dubai</a></li>
+                                    <li><a>Europe</a></li>
+                                    <li><a>Kerala</a></li>
+                                    <li><a>Shimla Manali</a></li>
+                                    <li><a>Kashmir</a></li>
+                                    <li><a>Andaman & Nicobar</a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="footer_first">
+                            <div class="footer_box">
+                                <h4>Sales Offices Locations:</h4>
+
+
+                                <div class="address">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <p>Mumbai | Pune | Jalandhar | Ahmedabad</p>
+                                </div>
+
+                                <hr style="margin: 20px 0; border-top:2px solid #eee;">
+                                <h4 class="last_head">Operation Offices Locations:</h4>
+
+
+                                <div class="address">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <p>Cochin, Kerala | Srinagar, Jammu & Kashmir | Manali, Himachal Pradesh | Shimla,
+                                        Himachal Pradesh |
+                                        Gangtok, Sikkim | Darjeeling, West Bengal | Goa | Dharamshala, Himachal Pradesh
+                                        | Pattaya, Thailand
+                                    </p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <hr style="margin: 20px 0; color: #eee;">
+
+                    <div class="col-md-12">
+                        <div class="footer_bottom">
+                            <div class="footer_lower">
+                                <p class="footer_last">Copyright © 2014. Akshay Travel AND Tourism Pvt. Ltd.. All
+                                    rights reserved.
+                                </p>
+                            </div>
+
+                            <div class="footer_lower">
+                                <div class="footer_nav">
+                                    <ul class="list-inline">
+                                        <li><a>Home</a></li>
+                                        <li><a>About</a></li>
+                                        <li><a>Service</a></li>
+                                        <li><a>Reviews</a></li>
+                                        <li><a>Gallery</a></li>
+                                        <li><a>Terms & Condition</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+        </footer>
+
+
+        <div class="scroll_btn" onclick="moveto();">
+            <i class="fas fa-chevron-up"></i>
+
+        </div>
+
+
+
+    </div>
+
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
