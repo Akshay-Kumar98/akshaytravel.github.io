@@ -251,6 +251,20 @@
   .destination_content p {
     font-size: 15px;
   }
+
+  
+  .flatbox {
+    width: 70%;
+    font-size: 14px;
+  font-weight: 600;
+   
+  }
+  
+  .custombox img {
+    width: 35px;
+    height: 35px;
+    
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -307,6 +321,14 @@
   .pay_custom {
     margin-bottom: 30px;
   }
+
+  .input_box input {
+    outline: none;
+    border: none;
+    width: 100%;
+    font-size: 20px;
+  }
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
@@ -455,6 +477,20 @@
   .contactus h2{
     font-size: 25px;
     padding-top: 150px;
+  }
+
+
+  .flatbox {
+    width: 70%;
+    font-size: 13px;
+  font-weight: 600;
+   
+  }
+  
+  .custombox img {
+    width: 35px;
+    height: 35px;
+    
   }
 
 }
